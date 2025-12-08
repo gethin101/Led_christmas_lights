@@ -1,13 +1,13 @@
 # 🎄 Voice-Controlled Christmas Lights v1
 
 This repository contains all files for my **HackClub Blueprint Custom Project**.  
-The project is designed to combine **voice recognition**, **LED animations**, and **music playback** for an interactive Christmas decoration.
+The project is designed to combine **voice recognition**, **LED strip lights**, and **christmas music playback** for a cool interactive christmas setup.
 
-It features:
-- WS2812B addressable LED strip
-- LD3320 voice recognition module
-- DFPlayer Mini MP3 player with microSD storage
-- Powered by a Raspberry Pi Pico 2 WH microcontroller
+It should feature:
+-Raspberry Pi Pico 2 WH
+-LD3320 voice recoginition module
+-WS2812B LED strip lights
+-DFPlayer Mini & microSD storage
 
 ---
 
