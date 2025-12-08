@@ -26,7 +26,7 @@ It should feature:
 
 -The user can use prompts to control the setup.
 
--The pico triggers colorful LED animations on the WS2812B strip lights & plays christmas songs through the DFPlayer Mini
+-Triggers colorful LED animations on the WS2812B strip lights & plays christmas songs through the DFPlayer Mini
 
 
 ## 🔌 Breadboard design
