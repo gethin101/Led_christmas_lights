@@ -34,8 +34,11 @@ It should feature:
 This is the layout of my components on a breadboard that I designed using TinkerCAD.
 
 Rough idea for connections:
+
 -WS2812B - Pico GP0 -> LED DI
+
 -DFPlayer - Pico GP8 -> DFPlayer RX, GP9 (RX) -> DFPlayer TX
+
 -LD3320 (SPIO):
    GP2 -> SCK
    GP3 -> MOSI
@@ -43,7 +46,9 @@ Rough idea for connections:
    GP5 -> CS
    GP6 -> RST
    #maybe GP7 -> IRQ (interupt)
+   
 -PAM8403 -> BF 37 speakers
+
 -Shared 5V & GND rails
 
 ---
@@ -51,15 +56,24 @@ Rough idea for connections:
 ## Voice commands
 
 I will add many voice commands that users can use to control the lights & sounds.
+
 A few will include:
 -"**red**" - **makes lights glow red and turn on and off**
+
 -"**green**" - **makes lights glow green and turn on and off**
+
 -"**random song**" - **the DFPlayer will select & play a random christmas song**
+
 -"**song1**" - **DFPlayer will play first song in album**
+
 -"**song2**" - **DFPlayer will play second song in album**
+
 -"**dark**" - **lights will turn off**
+
 -"**stop**" - **DFPlayer will stop playback & wait for another command**
+
 -"**turn off**" - **Pico will stop music, lights & voice recoginiton - essentially neutral mode**
+
 
 
 ## 📦 Bill of Materials (BOM)
