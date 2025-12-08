@@ -59,7 +59,7 @@ This is the layout of my components on a breadboard that I designed using Tinker
 
 I will add many voice commands that users can use to control the lights & sounds.
 
-<u>**A few will include:**</u>
+**A few will include:**
 
 -"**red**" - **makes lights glow red and turn on and off**
 
