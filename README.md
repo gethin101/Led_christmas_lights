@@ -5,6 +5,7 @@ The project is designed to combine **voice recognition**, **LED strip lights**, 
  
 
 It should feature:
+
 -Raspberry Pi Pico 2 WH
 -LD3320 voice recoginition module
 -WS2812B LED strip lights
