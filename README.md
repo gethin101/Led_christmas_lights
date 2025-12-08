@@ -29,7 +29,6 @@ It should feature:
 -The pico triggers colorful LED animations on the WS2812B strip lights & plays christmas songs through the DFPlayer Mini
 
 
-
 ## 🔌 Breadboard design
 
 <img src="Images/breadboard-layout.png" alt="Breadboard Screenshot" width="500">
