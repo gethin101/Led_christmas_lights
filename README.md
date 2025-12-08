@@ -94,7 +94,8 @@ List of all parts used in my project:
 | Breadboard | 1 | For prototyping |
 | Jumper wires | 1 set | For connections |
 
-**Should come out to no more than £70**
+*Should come out to no more than £70*
+
 ---
 
 ## 🚀 Next Steps
