@@ -1,55 +1,60 @@
-# 🎄 Voice-Controlled Christmas Lights v1
+# 🎄 Gethin's Voice-Controlled Christmas Lights v1
 
 This repository contains all files for my **HackClub Blueprint Custom Project**.  
-The project is designed to combine **voice recognition**, **LED strip lights**, and **christmas music playback** for a cool interactive christmas setup.
+The project is designed to combine **voice recognition**, **LED strip lights**, and **christmas music playback** for a cool interactive christmas setup that controls lights & plays songs.
+ 
 
 It should feature:
 -Raspberry Pi Pico 2 WH
 -LD3320 voice recoginition module
 -WS2812B LED strip lights
 -DFPlayer Mini & microSD storage
+-PAM8403 amplifier & BF 37 speakers
 
 ---
 
-## 📸 Project Overview
+## 📸 My view for the project
 
-This is the overview of my Christmas lights + music system assembled in Fusion 360 / breadboard prototype.  
-It shows how the Pico, LED strip, DFPlayer, and LD3320 module are connected together.
+[add text]
 
 <img src="Images/project-overview.png" alt="Christmas Project Screenshot" width="600">
 
 ---
 
-## 🔌 Schematic
-![Schematic Screenshot](Images/schematic.png)
-
-This schematic shows how each component is wired:
-- Pico GPIO → WS2812B data line
-- Pico UART → DFPlayer Mini RX/TX
-- Pico SPI → LD3320 voice recognition module
-- DFPlayer Mini → Speaker (direct or via PAM8403 amplifier)
-- Power rails: 5V shared across LEDs, DFPlayer, and LD3320
-
----
-
-## 🖥️ PCB / Breadboard Layout
-This layout shows the component placement and wiring for prototyping.  
-Later, this can be turned into a custom PCB for a permanent build.
+## 🔌 Breadboard design
 
 <img src="Images/breadboard-layout.png" alt="Breadboard Screenshot" width="500">
 
+This is the layout of my components on a breadboard that I designed using TinkerCAD.
+
+Rough idea for connections:
+-WS2812B - Pico GP0 -> LED DI
+-DFPlayer - Pico GP8 -> DFPlayer RX, GP9 (RX) -> DFPlayer TX
+-LD3320 (SPIO):
+   GP2 -> SCK
+   GP3 -> MOSI
+   GP4 -> MISO
+   GP5 -> CS
+   GP6 -> RST
+   #maybe GP7 -> IRQ (interupt)
+-PAM8403 -> BF 37 speakers
+-Shared 5V & GND rails
+
 ---
 
-## 🧩 Case Design
+## Voice commands
 
-<img src="Images/case_base.png" alt="Case base fusion" width="500">
-<img src="Images/case_cover.png" alt="Case cover fusion" width="500">
-<img src="Images/case_assembled.png" alt="Case assembled fusion" width="500">
+I will add many voice commands that users can use to control the lights & sounds.
+A few will include:
+-"**red**" - **makes lights glow red and turn on and off**
+-"**green**" - **makes lights glow green and turn on and off**
+-"**random song**" - **the DFPlayer will select & play a random christmas song**
+-"**song1**" - **DFPlayer will play first song in album**
+-"**song2**" - **DFPlayer will play second song in album**
+-"**dark**" - **lights will turn off**
+-"**stop**" - **DFPlayer will stop playback & wait for another command**
+-"**turn off**" - **Pico will stop music, lights & voice recoginiton - essentially neutral mode**
 
-I designed a simple enclosure in Fusion 360 to hold the Pico, DFPlayer, and speaker.  
-The LED strip can be mounted externally around a tree or window.
-
----
 
 ## 📦 Bill of Materials (BOM)
 List of all parts used in my project:
@@ -61,8 +66,8 @@ List of all parts used in my project:
 | LD3320 Voice Recognition Module | 1 | Offline voice recognition |
 | DFPlayer Mini | 1 | MP3 player module |
 | MicroSD card (8GB) | 1 | Stores Christmas songs |
-| Speaker (5W–10W, 4–8Ω) | 1–2 | Plays music |
-| PAM8403 amplifier (optional) | 1 | Boosts audio output |
+| BF 37 speaker | 1–2 | Plays music |
+| PAM8403 amplifier | 1 | Boosts audio output |
 | Breadboard | 1 | For prototyping |
 | Jumper wires | 1 set | For connections |
 
@@ -82,4 +87,4 @@ List of all parts used in my project:
 ---
 
 ## 📝 License
-This project is open-source under the MIT License and created by @YourUsername
+This project is open-source under the MIT License and created by @Gethin101
