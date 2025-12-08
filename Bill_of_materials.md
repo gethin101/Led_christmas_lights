@@ -14,4 +14,4 @@ List of all parts used in my project with likely sources:
 | Breadboard | 1 | For prototyping | [Amazon link](https://www.amazon.co.uk/MMOBIEL-Solderless-Breadboard-Prototype-Circuit/dp/B0CPJPXDNX/ref=sr_1_2_sspa?crid=1BD5FWY3FPH08&dib=eyJ2IjoiMSJ9.3WtQephyJ_tMR9x7YadsvLyJBGm7673XLXePsMcovJWOwZCb1YAJn3JyNWvs1Qdc08yfJqsaOrM0oWmxyhtO3TpbtX6MdKeeVOSt9c4uXUL848-bxlkgCK2Nx8ARALdWHmPqkMGE3RRuJ068yAAqa_yHRETcLlNNs29gV2PwBw_Pc_ReOge6gukZF_UXkgpr3Ne4GgMZLwYgT-FP4lzA7imKe_MhKpb4l_Gn1vKxrBLCK8B0Y_ODkBdNpjwNBOnD_gpcwtU34gloA-w08L7K9TBNf3T0pQyYsDiXY3hkvlA.-93MR4NVNlsL1b3gFpehP-eqiGoe-CHjwZW5mjnPpGQ&dib_tag=se&keywords=breadboard+830&qid=1765229518&sprefix=breadboard+830%2Caps%2C88&sr=8-2-spons&aref=nCiSVGHNu3&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)|
 | Jumper wires | Mixed set | For connections | [PiHut link](https://thepihut.com/products/thepihuts-jumper-bumper-pack-120pcs-dupont-wire?variant=13530244284478&country=GB&currency=GBP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOop0rdxrF5YBBWYAFB62J5QFmalpuACcezCw8UvOHM4R557Trwv-u2I) |
 
-**Should come out to no more than £70**
+**Should come out to no more than £80**
