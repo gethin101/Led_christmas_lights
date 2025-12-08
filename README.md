@@ -98,10 +98,10 @@ List of all parts used in my project:
 
 ## 🚀 Next Steps
 
-- Once my project is approved, I will use the grant to purchase the components,
-- I will build the breadboard prototype with all modules connected,
-- I will test the LED animations and confirm that the DFPlayer plays music correctly,
-- I will train the LD3320 with my voice commands,
+- Once my project is approved, I will use the grant to purchase the components
+- I will build the breadboard prototype with all modules connected
+- I will test the LED animations and confirm that the DFPlayer plays music correctly
+- I will train the LD3320 with my voice commands
 - I will update this README & my project on Blueprints with photos & videos of the setup fully functional
 
 ---
