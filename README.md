@@ -21,11 +21,10 @@ It should feature:
 
 ## 📸 My view for the project
 
-[add text]
+-I want the Raspberry Pi Pico to listen for voice commands through the LD3320 voice recognition module.
+-The user can use prompts to control the setup.
+-The pico triggers colorful LED animations on the WS2812B strip lights & plays christmas songs through the DFPlayer Mini
 
-<img src="Images/project-overview.png" alt="Christmas Project Screenshot" width="600">
-
----
 
 ## 🔌 Breadboard design
 
