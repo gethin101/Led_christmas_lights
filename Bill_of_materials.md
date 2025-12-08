@@ -5,7 +5,7 @@ List of all parts used in my project with likely sources:
 | Part | Quantity | Description | Source |
 |------|----------|-------------|--------|
 | Raspberry Pi Pico 2 WH | 1 | Microcontroller | [PiHut Link](https://thepihut.com/products/raspberry-pi-pico-2-w?srsltid=AfmBOorHI_1q1DjVMA1ssCuGda-ervPT9WyUxXOJEcrdkc06SStn7pyK&scrlybrkr=fb02283f) + headers |
-| WS2812B LED strip (5m) | 1 | Addressable RGB LEDs | link |
+| WS2812B LED strip (5m) | 1 | Addressable RGB LEDs | [OnBuy Link](https://www.onbuy.com/gb/p/5m-ws2812b-led-strip-5v-144-pixel-ledsm-individually-addressable~p131223890/?exta=gshp&extac=gshpfa&scrlybrkr=fb02283f) |
 | LD3320 Voice Recognition Module | 1 | Offline voice recognition | link |
 | DFPlayer Mini | 1 | MP3 player module | link |
 | MicroSD card (8GB) | 1 | Stores Christmas songs | link |
