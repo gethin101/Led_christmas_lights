@@ -33,7 +33,7 @@ It should feature:
 
 This is the layout of my components on a breadboard that I designed using TinkerCAD.
 
-Rough idea for connections:
+**Rough idea for connections:**
 
 -WS2812B - Pico GP0 -> LED DI
 
@@ -57,7 +57,8 @@ Rough idea for connections:
 
 I will add many voice commands that users can use to control the lights & sounds.
 
-A few will include:
+**A few will include:**
+
 -"**red**" - **makes lights glow red and turn on and off**
 
 -"**green**" - **makes lights glow green and turn on and off**
