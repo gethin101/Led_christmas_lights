@@ -2,6 +2,7 @@
 
 This repository contains all files for my **HackClub Blueprint Custom Project**.  
 The project is designed to combine **voice recognition**, **LED strip lights**, and **christmas music playback** for a cool interactive christmas setup that controls lights & plays songs.
+
  
 
 It should feature:
