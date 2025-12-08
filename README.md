@@ -5,7 +5,7 @@ The project is designed to combine **voice recognition**, **LED strip lights**, 
 
  
 
-It should feature:
+**It should feature:**
 
 -Raspberry Pi Pico 2 WH
 
@@ -31,9 +31,9 @@ It should feature:
 
 ## 🔌 Breadboard design
 
-<img src="Images/breadboard-layout.png" alt="Breadboard Screenshot" width="500">
+<img src="Images/breadboard.png" alt="breadboard png" width="500">
 
-This is the layout of my components on a breadboard that I designed using TinkerCAD.
+This is the layout of my components on a breadboard that I designed using Fritzing.
 
 **Rough idea for connections:**
 
