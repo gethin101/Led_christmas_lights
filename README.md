@@ -106,23 +106,23 @@ pico - <img width="1442" height="672" alt="image" src="https://github.com/user-a
 need this? - <img width="366" height="579" alt="image" src="https://github.com/user-attachments/assets/0f91be5f-d994-4747-a58d-1c13bcea8030" />
 
 
-| Component                | Description / Notes                                      |
-|--------------------------|----------------------------------------------------------|
-| Raspberry Pi Pico        | Main controller (normal Pico is fine, Pico 2 WH optional)|
-| LD3320 Voice Module      | Offline voice recognition, with microphone               |
-| WS2812B LED Strip        | 2 m length, 30 LEDs/m (≈60 LEDs total)                   |
-| 330–470 Ω Resistor       | Series resistor on LED data line                         |
-| 1000 µF Capacitor        | Across LED 5V/GND for stability                          |
-| DFPlayer Mini            | MP3 playback from microSD card                           |
-| MicroSD Card (8–32 GB)   | FAT32 formatted, tracks named 001.mp3, 002.mp3, etc.     |
-| PAM8403 Amplifier Board  | Stereo 5 V amp, version with volume knob recommended     |
-| BF‑37 Speakers (pair)    | Small drivers, ideally mounted in enclosures             |
-| 5 V 3 A Wall Adapter     | Power supply for Pico, LEDs, audio                       |
-| Breadboard               | For prototyping and module connections                   |
-| Jumper Wires             | Male–male and male–female, assorted lengths              |
-| Speaker Wire (20–22 AWG) | Twisted pairs, ~1–2 m runs to boxed speakers             |
-| Thicker Wire (18–20 AWG) | For LED power injection if extending beyond 2 m          |
-| Mounting Clips/Tape      | To secure LED strip to wall or shelf                     |
+## Budget Bill of Materials (BOM)
+
+| Component                | Notes / Cheapest Option                                     |
+|--------------------------|-------------------------------------------------------------|
+| Raspberry Pi Pico        | Normal Pico (~£3–£5)                                        |
+| LD3320 Voice Module      | Offline voice recognition (~£5–£8)                          |
+| WS2812B LED Strip        | 2 m, 30 LEDs/m (~£12–£18)                                   |
+| 330–470 Ω Resistor       | For LED data line (pennies, often in kits)                  |
+| 1000 µF Capacitor        | Across LED 5V/GND (pennies, often in kits)                  |
+| DFPlayer Mini            | MP3 playback (~£1–£2)                                       |
+| MicroSD Card (8–16 GB)   | FAT32 formatted (~£3–£5)                                    |
+| PAM8403 Amplifier Board  | Stereo 5 V amp, version with knob (~£1–£2)                  |
+| BF‑37 Speakers (pair)    | Small drivers, clone versions (~£8–£12)                     |
+| 5 V 3 A Wall Adapter     | Power supply (~£5–£7, safer to buy locally if possible)     |
+| Breadboard               | For prototyping (~£3–£6, often bundled with jumper wires)   |
+| Jumper Wires             | Male–male/female, assorted lengths (~£2–£3 in kits)         |
+| Speaker Wire (20–22 AWG) | Twisted pairs, ~1–2 m runs (~£2–£3)                         | prob dont need |
 
 
 try get most stuff except from power from aliexrpess
