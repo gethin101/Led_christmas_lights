@@ -123,7 +123,8 @@ need this? - <img width="366" height="579" alt="image" src="https://github.com/u
 | Speaker Wire (20–22 AWG) | Twisted pairs, ~1–2 m runs to boxed speakers             |
 | Thicker Wire (18–20 AWG) | For LED power injection if extending beyond 2 m          |
 | Mounting Clips/Tape      | To secure LED strip to wall or shelf                     |
-t
+
+
 try get most stuff except from power from aliexrpess
 
 ---
