@@ -97,6 +97,8 @@ List of all parts used in my project with likely sources:
 
 **Should come out to no more than £80**
 
+voice recog https://www.aliexpress.com/item/1005007144572665.html?gatewayAdapt=usa2glo4itemAdapt
+
 ---
 
 ## 🚀 Next Steps
