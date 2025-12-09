@@ -103,6 +103,8 @@ dfplayer mini https://www.aliexpress.com/item/1005006166800318.html?spm=a2g0o.pr
 
 pico - <img width="1442" height="672" alt="image" src="https://github.com/user-attachments/assets/dbd78b96-bab4-4b8e-8d83-7d081e4fe417" />
 
+need this? - <img width="366" height="579" alt="image" src="https://github.com/user-attachments/assets/0f91be5f-d994-4747-a58d-1c13bcea8030" />
+
 ---
 
 ## 🚀 Next Steps
