@@ -19,6 +19,42 @@ The project is designed to combine **voice recognition**, **LED strip lights**, 
 
 ---
 
+## Repository Structure
+
+To make this project clear and reviewer‑friendly, organize your repo as follows:
+
+- **README.md**
+  - Overview of the project
+  - Features list (voice commands → actions)
+  - Hardware summary (link to `/hardware/`)
+  - Firmware summary (link to `/firmware/`)
+  - Audio setup notes (link to `/audio/`)
+  - Build instructions (link to `/docs/`)
+
+- **/hardware/**
+  - Wiring diagram (Fritzing image or schematic)
+  - Bill of Materials (BOM table)
+  - Photos of breadboard + modules setup
+
+- **/firmware/**
+  - `main.py` (MicroPython entry script)
+  - Helper files (`leds.py`, `dfplayer.py`, `voice.py`)
+
+- **/audio/**
+  - Placeholder text file listing track names (e.g. `001.mp3 = Jingle Bells`)
+  - Instructions for adding MP3s to microSD card
+  - *Do not upload copyrighted songs*
+
+- **/docs/**
+  - Build steps (markdown file)
+  - Notes on training LD3320 commands
+  - Troubleshooting tips
+
+
+
+
+---
+
 ## 📸 My view for the project
 
 
