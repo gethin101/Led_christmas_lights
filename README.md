@@ -7,15 +7,21 @@ The project is designed to combine **voice recognition**, **LED strip lights**, 
 
 **It should feature:**
 
--Raspberry Pi Pico 2 WH
+-Raspberry Pi Pico
 
 -LD3320 voice recoginition module
 
--WS2812B LED strip lights
+-WS2812B LED strip lights (30 led/m - 2m)
 
--DFPlayer Mini & microSD storage
+-DFPlayer Mini & 8gb microSD storage
 
 -PAM8403 amplifier & BF 37 speakers
+
+-5V 3A wall power adapter
+
+-Breaboard & jumper wires
+
+-Speaker extension wire (possible)
 
 ---
 
@@ -49,8 +55,6 @@ To make this project clear and reviewer‑friendly, organize your repo as follow
   - Build steps (markdown file)
   - Notes on training LD3320 commands
   - Troubleshooting tips
-
-
 
 
 ---
@@ -116,23 +120,6 @@ I will add many voice commands that users can use to control the lights & sounds
 
 ---
 
-## 📦 Bill of Materials (BOM)
-List of all parts used in my project with likely sources:
-
-| Part | Quantity | Description | Source |
-|------|----------|-------------|--------|
-| Raspberry Pi Pico 2 WH | 1 | Microcontroller | [PiHut Link](https://thepihut.com/products/raspberry-pi-pico-2-w?srsltid=AfmBOorHI_1q1DjVMA1ssCuGda-ervPT9WyUxXOJEcrdkc06SStn7pyK&scrlybrkr=fb02283f) + headers |
-| WS2812B LED strip (5m) | 1 | Addressable RGB LEDs | [OnBuy Link](https://www.onbuy.com/gb/p/5m-ws2812b-led-strip-5v-144-pixel-ledsm-individually-addressable~p131223890/?exta=gshp&extac=gshpfa&scrlybrkr=fb02283f) |
-| LD3320 Voice Recognition Module | 1 | Offline voice recognition | [Amazon link](https://www.amazon.co.uk/Recognition-Intelligent-Control-Development-Language-SPI-Port/dp/B0FND3DBT7?th=1) |
-| DFPlayer Mini | 1 | MP3 player module | [Aliexpress link](https://s.click.aliexpress.com/deep_link.htm?dl_target_url=https%3A%2F%2Fwww.aliexpress.com%2Fitem%2F1005006584742737.html&src=google&aff_short_key=irey5Th&aff_platform=true&isdl=y) |
-| MicroSD card (8GB) | 1 | Stores Christmas songs | [Amazon link](https://www.amazon.co.uk/SanDisk-MicroSDHC-Card-Label-Change/dp/B001C0DJL4?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1JF5HKJHGDUB9) |
-| BF 37 speaker | 1–2 | Plays music | [ImpactAudio link](https://impactaudio.co.uk/products/visaton-bf-37-8-ohm) |
-| PAM8403 amplifier | 1 | Boosts audio output | [Amazon link](https://www.amazon.co.uk/DollaTek-PAM8403-amplifier-module-audio/dp/B07DK7CYV5?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A3SCFTIO8CSK1X) |
-| Breadboard | 1 | For prototyping | [Amazon link](https://www.amazon.co.uk/MMOBIEL-Solderless-Breadboard-Prototype-Circuit/dp/B0CPJPXDNX/ref=sr_1_2_sspa?crid=1BD5FWY3FPH08&dib=eyJ2IjoiMSJ9.3WtQephyJ_tMR9x7YadsvLyJBGm7673XLXePsMcovJWOwZCb1YAJn3JyNWvs1Qdc08yfJqsaOrM0oWmxyhtO3TpbtX6MdKeeVOSt9c4uXUL848-bxlkgCK2Nx8ARALdWHmPqkMGE3RRuJ068yAAqa_yHRETcLlNNs29gV2PwBw_Pc_ReOge6gukZF_UXkgpr3Ne4GgMZLwYgT-FP4lzA7imKe_MhKpb4l_Gn1vKxrBLCK8B0Y_ODkBdNpjwNBOnD_gpcwtU34gloA-w08L7K9TBNf3T0pQyYsDiXY3hkvlA.-93MR4NVNlsL1b3gFpehP-eqiGoe-CHjwZW5mjnPpGQ&dib_tag=se&keywords=breadboard+830&qid=1765229518&sprefix=breadboard+830%2Caps%2C88&sr=8-2-spons&aref=nCiSVGHNu3&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)|
-| Jumper wires | Mixed set | For connections | [PiHut link](https://thepihut.com/products/thepihuts-jumper-bumper-pack-120pcs-dupont-wire?variant=13530244284478&country=GB&currency=GBP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOop0rdxrF5YBBWYAFB62J5QFmalpuACcezCw8UvOHM4R557Trwv-u2I) |
-
-**Should come out to no more than £80**
-
 voice recog https://www.aliexpress.com/item/1005007144572665.html?gatewayAdapt=usa2glo4itemAdapt
 
 dfplayer mini https://www.aliexpress.com/item/1005006166800318.html?spm=a2g0o.productlist.main.1.764a21Fc21FcMB&algo_pvid=bc4a30aa-3f83-437a-9627-fddc84290746&algo_exp_id=bc4a30aa-3f83-437a-9627-fddc84290746-0&pdp_ext_f=%7B%22order%22%3A%22576%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21GBP%211.14%210.76%21%21%2110.43%216.95%21%40211b819117652667080666710e5ece%2112000037327793485%21sea%21UK%216897923402%21ABX%211%210%21n_tag%3A-29910%3Bd%3Ae5f61ebb%3Bm03_new_user%3A-29895%3BpisId%3A5000000187461875&curPageLogUid=mRzHM7pNTvL9&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005006166800318%7C_p_origin_prod%3A + STC11S
@@ -142,32 +129,31 @@ pico - <img width="1442" height="672" alt="image" src="https://github.com/user-a
 need this? - <img width="366" height="579" alt="image" src="https://github.com/user-attachments/assets/0f91be5f-d994-4747-a58d-1c13bcea8030" />
 
 
-## Budget Bill of Materials (BOM)
+## Bill of Materials (BOM)
 
-| Component                | Notes / Cheapest Option                                     |
-|--------------------------|-------------------------------------------------------------|
-| Raspberry Pi Pico        | Normal Pico (~£3–£5)                                        |
-| LD3320 Voice Module      | Offline voice recognition (~£5–£8)                          |
-| WS2812B LED Strip        | 2 m, 30 LEDs/m (~£12–£18)                                   |
-| 330–470 Ω Resistor       | For LED data line (pennies, often in kits)                  |
-| 1000 µF Capacitor        | Across LED 5V/GND (pennies, often in kits)                  |
-| DFPlayer Mini            | MP3 playback (~£1–£2)                                       |
-| MicroSD Card (8–16 GB)   | FAT32 formatted (~£3–£5)                                    |
-| PAM8403 Amplifier Board  | Stereo 5 V amp, version with knob (~£1–£2)                  |
-| BF‑37 Speakers (pair)    | Small drivers, clone versions (~£8–£12)                     |
-| 5 V 3 A Wall Adapter     | Power supply (~£5–£7, safer to buy locally if possible)     |
-| Breadboard               | For prototyping (~£3–£6, often bundled with jumper wires)   |
-| Jumper Wires             | Male–male/female, assorted lengths (~£2–£3 in kits)         |
-| Speaker Wire (20–22 AWG) | Twisted pairs, ~1–2 m runs (~£2–£3)                         | prob dont need |
+| Component                | Notes                                                       | Links |
+|--------------------------|-------------------------------------------------------------| |
+| Raspberry Pi Pico        | Normal Pico (~£3–£5)                                        | |
+| LD3320 Voice Module      | Offline voice recognition (~£5–£8)                          | |
+| WS2812B LED Strip        | 2 m, 30 LEDs/m (~£12–£18)                                   | |
+| DFPlayer Mini            | MP3 playback (~£1–£2)                                       | |
+| MicroSD Card (8–16 GB)   | FAT32 formatted (~£3–£5)                                    | |
+| PAM8403 Amplifier Board  | Stereo 5 V amp, version with knob (~£1–£2)                  | |
+| BF‑37 Speakers (pair)    | Small drivers, clone versions (~£8–£12)                     | |
+| 5 V 3 A Wall Adapter     | Power supply (~£5–£7, safer to buy locally if possible)     | |
+| Breadboard               | For prototyping (~£3–£6, often bundled with jumper wires)   | |
+| Jumper Wires             | Male–male/female, assorted lengths (~£2–£3 in kits)         | |
+| #Speaker Wire (20–22 AWG)| Twisted pairs, ~1–2 m runs (~£2–£3)                        | prob dont need |
+
+source most from aliexpress
 
 
-try get most stuff except from power from aliexrpess
 
 ---
 
 ## 🚀 Next Steps
 
-- Once my project is approved, I will use the grant to purchase the components
+- Once my project is approved, I will use the grant to purchase the components from the links in my BOM
 - I will build the breadboard prototype with all modules connected
 - I will test the LED animations and confirm that the DFPlayer plays music correctly
 - I will train the LD3320 with my voice commands
