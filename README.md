@@ -120,7 +120,7 @@ need this? - <img width="366" height="579" alt="image" src="https://github.com/u
 | Jumper Wires             | Male–male/female, assorted lengths (~£2–£3 in kits)         |       |
 | Speaker Wire (20–22 AWG) | Twisted pairs, ~1–2 m runs (~£2–£3)                         |       |
 
-#I have sourced most of my components from AliExpress to lower the cost and the used of the grant
+I have sourced most of my components from AliExpress to lower the cost and the use of the grant
 ---
 
 ## 🚀 Next Steps
