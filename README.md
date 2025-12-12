@@ -30,20 +30,6 @@ My project is designed to combine **voice recognition**, **LED strip lights**, a
 - <img alt="image" src="Images/led_lights_layout.png" />
 
 
-## Repository Structure
-
-
-- **/firmware/**
-  - `main.py` (MicroPython entry script)
-  - Helper files (`leds.py`, `dfplayer.py`, `voice.py`)
-
-- **/audio/**
-  - Placeholder text file listing track names (e.g. `001.mp3 = Jingle Bells`)
-  - Instructions for adding MP3s to microSD card
-  - *Do not upload copyrighted songs*
-
----
-
 ## 📸 My view for the project
 
 
