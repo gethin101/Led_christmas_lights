@@ -71,7 +71,13 @@ The Pico sends simple commands to play tracks, while a PAM8403 amp and BF-37 spe
 -Shared 5V & GND rails
 
 ---
+## Power
+I am going to use one 5V 3A adapter to power the LED strips, the PAM8403 amplifier, the DFPlayer mini & my pico (through VSYS)
+The LD3320 voice recognition will use 3.3V from my pico and all the grounds will be shared so the devices don't get mixed up with 0V
 
+⚠️ I'm gonna make sure the LED is powered from the 5V 3A adapter and not from the Pico and that all data connections come from the pico GPIO pins, not the breadboard
+
+---
 ## Voice commands
 
 I will add many voice commands that users can use to control the lights & sounds.
