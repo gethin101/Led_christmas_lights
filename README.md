@@ -21,7 +21,7 @@ My project is designed to combine **voice recognition**, **LED strip lights**, a
 
 -Breaboard & jumper wires
 
--Speaker extension wire (possible)
+-Speaker extension wire (if needed)
 
 ---
 
