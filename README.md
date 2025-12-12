@@ -27,7 +27,7 @@ My project is designed to combine **voice recognition**, **LED strip lights**, a
 
 ## Rough layout
 
-- <img width="600" height="800" alt="image" src="Images/led_lights_layout.png" />
+- <img alt="image" src="Images/led_lights_layout.png" />
 
 ## Repository Structure
 
