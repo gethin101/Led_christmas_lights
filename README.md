@@ -32,12 +32,6 @@ My project is designed to combine **voice recognition**, **LED strip lights**, a
 
 ## Repository Structure
 
-To make this project clear and reviewer‑friendly, organize your repo as follows:
-
-- **README.md**
-  - Firmware summary (link to `/firmware/`)
-  - Audio setup notes (link to `/audio/`)
-  - Build instructions (link to `/docs/`)
 
 - **/firmware/**
   - `main.py` (MicroPython entry script)
@@ -59,12 +53,18 @@ To make this project clear and reviewer‑friendly, organize your repo as follow
 
 -Triggers colorful LED animations on the WS2812B strip lights & plays christmas songs through the DFPlayer Mini
 
+## Firmware Summary
+
+The firmware is written in CircuitPython and split into small modules that handle LEDs, audio, and voice input seperately and then are referenced in the difference codes.
+Main.py ties everything together by listening for voice triggers, running LED effects, and playing songs from the DFPlayer.
+I will easily change the code later by editing the individual helper codes.
+
+# Audio Summary
+
+Music is stored on the DFPlayer Mini’s microSD card and are numbered as 0001.mp3.
+The Pico sends simple commands to play tracks, while a PAM8403 amp and BF-37 speakers provide the audio output and play the christmas songs when commanded.
 
 ## 🔌 Breadboard design
-
-<img src="Images/breadboard.png" alt="breadboard png" width="500">
-
-This is the layout of my components on a breadboard that I designed using Fritzing.
 
 **Rough idea for connections:**
 
