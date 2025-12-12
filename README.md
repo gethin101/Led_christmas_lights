@@ -58,7 +58,7 @@ The Pico sends simple commands to play tracks, while a PAM8403 amp and BF-37 spe
 
 -WS2812B - Pico GP0 -> LED DI
 
--DFPlayer - Pico GP8 -> DFPlayer RX, GP9 (RX) -> DFPlayer TX
+-DFPlayer - Pico GP8 -> DFPlayer RX, GP9 (RX) -> DFPlayer TX (flipped, TX -> RX)
 
 -LD3320 (SPIO):
    GP2 -> SCK
