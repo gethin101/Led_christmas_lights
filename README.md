@@ -15,7 +15,7 @@ My project is designed to combine **voice recognition**, **LED strip lights**, a
 
 -DFPlayer Mini & 8gb microSD storage
 
--PAM8403 amplifier & BF 37 speakers
+-PAM8403 amplifier & 3W speakers
 
 -5V 3A wall power adapter
 
@@ -66,7 +66,7 @@ The Pico sends simple commands to play tracks, while a PAM8403 amp and BF-37 spe
    GP6 -> RST
    #maybe GP7 -> IRQ (interupt)
    
--PAM8403 -> BF 37 speakers
+-PAM8403 -> 3W speakers
 
 -Shared 5V & GND rails
 
