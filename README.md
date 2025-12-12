@@ -3,6 +3,8 @@
 This repository contains all design files for my **HackClub Blueprint Custom LED Project**.  
 My project is designed to combine **voice recognition**, **LED strip lights**, and **christmas music playback** for a cool interactive christmas setup that controls LED strip lights & plays songs via a DFPlayer mini MP3 player.
 
+/firmware
+
  
 
 **It should feature:**
