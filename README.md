@@ -21,7 +21,7 @@ My project is designed to combine **voice recognition**, **LED strip lights**, a
 
 -Breaboard & jumper wires
 
--Barrel jack breakout board
+-Jack power socket barrel
 
 -Speaker extension wire (if needed)
 
@@ -120,7 +120,7 @@ I will add many voice commands that users can use to control the lights & sounds
 | Breadboard               | For prototyping   | [AliExpress bundle](https://www.aliexpress.com/ssr/300000512/BundleDeals2?spm=a2g0o.productlist.main.1.692d1e60ffPnyJ&productIds=1005008787753880:12000046666091866&pha_manifest=ssr&_immersiveMode=true&disableNav=YES&sourceName=SEARCHProduct&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005008787753880%7C_p_origin_prod%3A&pvid=7089a907-456f-4404-a7fe-0a8ddeeaab37)       |
 | Jumper Wires             | Male–male/female, assorted lengths        | [AliExpress](https://www.aliexpress.com/item/1005006616309305.html?spm=a2g0o.productlist.main.2.1d147c1aVGHwf7&aem_p4p_detail=202512120011083409994903434200000040416&algo_pvid=6c592fd7-6e04-41c8-a406-357a2a9e3593&algo_exp_id=6c592fd7-6e04-41c8-a406-357a2a9e3593-1&pdp_ext_f=%7B%22order%22%3A%22436%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21GBP%210.91%210.76%21%21%211.18%210.98%21%40211b81a317655270684283141e39b8%2112000037832224162%21sea%21UK%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3Afc98b1ba%3Bm03_new_user%3A-29895%3BpisId%3A5000000187461875&curPageLogUid=2ymewYtw1y88&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005006616309305%7C_p_origin_prod%3A&search_p4p_id=202512120011083409994903434200000040416_1)     |
 | Speaker Wire (20–22 AWG) | Twisted pairs, ~1–2 m runs                       |[don't think i need]      |
-| Barrel jack breakout board | To take power from the wall adapter | [link] |
+| Jack power socket barrel| To take power from the wall adapter | [AliExpress](https://www.aliexpress.com/item/1005008987005268.html?spm=a2g0o.productlist.main.2.381915e7JcfSgt&aem_p4p_detail=20251212090833313397790833640000425403&algo_pvid=2e3fce87-12b5-42da-8027-c2292547c9b0&algo_exp_id=2e3fce87-12b5-42da-8027-c2292547c9b0-1&pdp_ext_f=%7B%22order%22%3A%22117%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21GBP%211.79%210.76%21%21%2116.43%216.99%21%402103864c17655593129457846e415c%2112000047469895587%21sea%21UK%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3Afc98b1ba%3Bm03_new_user%3A-29895%3BpisId%3A5000000187461876&curPageLogUid=9ZJfA0tHASgm&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005008987005268%7C_p_origin_prod%3A&search_p4p_id=20251212090833313397790833640000425403_1) |
 
 I have sourced most of my components from AliExpress to lower the cost and the use of the grant
 ---
