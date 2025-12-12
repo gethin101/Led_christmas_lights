@@ -97,9 +97,6 @@ I will add many voice commands that users can use to control the lights & sounds
 
 ---
 
-need this? - <img width="366" height="579" alt="image" src="https://github.com/user-attachments/assets/0f91be5f-d994-4747-a58d-1c13bcea8030" />
-
-
 ## Bill of Materials (BOM)
 
 | Component                | Notes                                                       | Links |
