@@ -29,6 +29,7 @@ My project is designed to combine **voice recognition**, **LED strip lights**, a
 
 - <img alt="image" src="Images/led_lights_layout.png" />
 
+
 ## Repository Structure
 
 To make this project clear and reviewer‑friendly, organize your repo as follows:
