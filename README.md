@@ -78,6 +78,7 @@ I am going to use one 5V 3A adapter to power the LED strips, the PAM8403 amplifi
 The LD3320 voice recognition will use 3.3V from my pico and all the grounds will be shared so the devices don't get mixed up with 0V
 
 ⚠️ I'm gonna make sure the LED is powered from the 5V 3A adapter and not from the Pico and that all data connections come from the pico GPIO pins, not the breadboard
+Also, to save power I will set LED default brightness to around 60% so all components can recieve the power they need
 
 ---
 ## Voice commands
