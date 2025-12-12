@@ -59,7 +59,7 @@ The firmware is written in CircuitPython and split into small modules that handl
 Main.py ties everything together by listening for voice triggers, running LED effects, and playing songs from the DFPlayer.
 I will easily change the code later by editing the individual helper codes.
 
-# Audio Summary
+## Audio Summary
 
 Music is stored on the DFPlayer Mini’s microSD card and are numbered as 0001.mp3.
 The Pico sends simple commands to play tracks, while a PAM8403 amp and BF-37 speakers provide the audio output and play the christmas songs when commanded.
