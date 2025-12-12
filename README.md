@@ -126,7 +126,7 @@ I will add many voice commands that users can use to control the lights & sounds
 
 I have sourced most of my components from AliExpress to lower the cost and the use of the grant
 
-Price should realistically come around to less than £50 so I think Tier 4 possibly?
+Price should realistically come around to less than £50 so I think Tier 4 possibly? Maybe pushing Tier 3
 ---
 
 ## 🚀 Next Steps
