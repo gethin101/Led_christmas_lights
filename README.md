@@ -109,17 +109,17 @@ need this? - <img width="366" height="579" alt="image" src="https://github.com/u
 ## Bill of Materials (BOM)
 
 | Component                | Notes                                                       | Links |
-|--------------------------|-------------------------------------------------------------| |
-| Raspberry Pi Pico        | Normal Pico (~£3–£5)                                        | |
-| LD3320 Voice Module      | Offline voice recognition (~£5–£8)                          | |
-| WS2812B LED Strip        | 2 m, 30 LEDs/m (~£12–£18)                                   | |
-| DFPlayer Mini            | MP3 playback (~£1–£2)                                       | |
-| MicroSD Card (8–16 GB)   | FAT32 formatted (~£3–£5)                                    | |
-| PAM8403 Amplifier Board  | Stereo 5 V amp, version with knob (~£1–£2)                  | |
-| BF‑37 Speakers (pair)    | Small drivers, clone versions (~£8–£12)                     | |
-| 5 V 3 A Wall Adapter     | Power supply (~£5–£7, safer to buy locally if possible)     | |
-| Breadboard               | For prototyping (~£3–£6, often bundled with jumper wires)   | |
-| Jumper Wires             | Male–male/female, assorted lengths (~£2–£3 in kits)         | |
+|--------------------------|-------------------------------------------------------------| l|
+| Raspberry Pi Pico        | Normal Pico (~£3–£5)                                        | l|
+| LD3320 Voice Module      | Offline voice recognition (~£5–£8)                          | l|
+| WS2812B LED Strip        | 2 m, 30 LEDs/m (~£12–£18)                                   | l|
+| DFPlayer Mini            | MP3 playback (~£1–£2)                                       | l|
+| MicroSD Card (8–16 GB)   | FAT32 formatted (~£3–£5)                                    |l |
+| PAM8403 Amplifier Board  | Stereo 5 V amp, version with knob (~£1–£2)                  |l |
+| BF‑37 Speakers (pair)    | Small drivers, clone versions (~£8–£12)                     | l|
+| 5 V 3 A Wall Adapter     | Power supply (~£5–£7, safer to buy locally if possible)     | l|
+| Breadboard               | For prototyping (~£3–£6, often bundled with jumper wires)   | l|
+| Jumper Wires             | Male–male/female, assorted lengths (~£2–£3 in kits)         |l |
 | #Speaker Wire (20–22 AWG)| Twisted pairs, ~1–2 m runs (~£2–£3)                        | prob dont need |
 
 source most from aliexpress
