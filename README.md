@@ -27,7 +27,7 @@ My project is designed to combine **voice recognition**, **LED strip lights**, a
 
 ---
 
-I modelled a case for my whole lights system using Fusion360 and it can be seen below & in my 3D Model folder
+I modelled a case for my whole lights system using Fusion360 and it can be seen below & in my 3D Model folder. As you can see I made the case & cover seperate and added text on each section to show where the components will be placed.
 
 <img alt="image" src="Images/case.png" />
 
